@@ -1,0 +1,59 @@
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 100%
+}
+
+.card {
+    margin-bottom: 1rem
+}
+
+.cardbody {
+    background-color: #eceaea;
+    color: #fff
+}
+
+.black {
+    color: #000
+}
+
+.btn-gsa a {
+    color: #fff
+}
+
+.bg-gsa {
+    background-color: rgb(250, 250, 250);
+    color: rgb(8, 8, 8)
+}
+
+.gsa {
+    color: #059
+}
+
+.gsa-dark {
+    background-color: #3f6d94;
+    color: #fff
+}
+
+.previous {
+    background-color: #3f6d94;
+    color: #fff;
+    padding: 0.5rem
+}
+
+.btn-dh {
+    background-color: #339966;
+}
+
+.btn-dh:hover {
+    background-color: #025843;
+}
+
+a.dh-link {
+    color: #e5ecf3
+}
+
+a.dh-link:hover {
+    color: white;
+}

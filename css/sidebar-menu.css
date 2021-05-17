@@ -1,0 +1,98 @@
+h1,
+a {
+    width: 100%;
+}
+
+h1 {
+    border: 1px solid #339966;
+}
+
+body {
+    height: 100vh;
+}
+
+.navBg {
+    background-color: #339966;
+    max-width: 196px;
+    height: 100vh;
+}
+
+.navBg nav {
+    padding-top: 75px;
+}
+
+.navBg nav h1 {
+    color: #34495e;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 25px 12px;
+    background-color: white;
+}
+
+.navBg nav a {
+    transition: 0.6s;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+    border-bottom: 1px solid white;
+    font-weight: 300;
+}
+
+.navBg nav a:hover {
+    background-color: white;
+    color: #34495e;
+}
+
+.navBg nav a:hover i {
+    color: #34495e;
+}
+
+.navBg nav i {
+    padding-right: 10px;
+}
+
+.navBg nav small {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .navBg {
+        height: 100%;
+    }
+    .navBg nav {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navBg {
+        height: 100%;
+        max-width: 55px;
+    }
+    .navBg nav {
+        padding-top: 0px;
+    }
+    .navBg nav h1 {
+        display: none;
+    }
+    .navBg nav a {
+        text-align: center;
+    }
+    .navBg nav i {
+        padding-right: 0px;
+    }
+    .navBg nav span {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .navBg {
+        height: 100%;
+    }
+    .navBg nav {
+        padding-top: 0px;
+    }
+}
